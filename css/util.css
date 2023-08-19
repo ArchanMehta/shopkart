@@ -1,0 +1,122 @@
+.flex_all_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardlyt{
+    width: 200px;
+    height: auto;
+   padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px gray;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    flex-basis: 500px;
+    background-image:inherit;
+}
+.cardlyt2{
+    width: 200px;
+    height: auto;
+   padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px rgba(0, 100, 0, 0.374);
+    border: 1px solid rgba(0, 100, 0, 0.356);
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    flex-basis: 500px;
+    background-image:inherit;
+}
+.cardlyt3{
+    width: 200px;
+    height: auto;
+   padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px lightblue;
+    border: 1px solid lightblue;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    text-align: center;
+    
+    border-radius: 10px;
+    flex-basis: 500px;
+    background-image:inherit;
+}
+.cardlyt4{
+    width: 200px;
+    height: auto;
+   padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 20px pink;
+    border: 1px solid pink;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    flex-basis: 500px;
+    background-image:inherit;
+}
+
+.primarytxt {
+    font-family:  'Merriweather',serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+
+.discount{
+    color: green;
+    font-family: 'Merriweather',serif ;
+    font-weight: 500;
+}
+
+.bgc{
+    padding: 50px;
+    background-color: rgba(245, 245, 220, 0.448);
+    padding-bottom:50px ;
+    border-radius: 15px;
+}
+.bgc img{
+    height: 190px;
+    object-fit: contain;
+}
+.bgc2 img{
+    height: 190px;
+    object-fit: contain;
+}
+.bgc3 img{
+    height: 190px;
+    object-fit: contain;
+}
+.bgc4 img{
+    height: 190px;
+    object-fit: contain;
+}
+
+.bgc2{
+    padding: 50px;
+    background-color: rgba(255, 217, 0, 0.344);
+    padding-bottom:50px ;
+    border-radius: 15px;
+}
+
+.bgc3{
+    padding: 50px;
+    background-color: whitesmoke;
+    padding-bottom:50px ;
+    border-radius: 15px;
+}
+.bgc4{
+    padding: 50px;
+    background-color: rgba(0, 0, 128, 0.423);
+    padding-bottom:50px ;
+    border-radius: 15px;
+}

@@ -1,0 +1,35 @@
+@media screen and (max-width:700px) {
+    .logo{
+        
+        width: 100%;
+       
+    
+    }
+   .lgtxt{
+    display: block;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 5vh;
+    justify-self: center;
+    margin-left: 15vh;
+
+   }
+    nav ul {
+        height: 33vh;
+    display: flex;
+        position:relative;
+        left: 23vh;
+        align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5vh;
+
+    }
+
+    nav ul a:hover{
+        color: aqua;
+    font-weight: 900;
+    font-size: larger;
+    }
+
+}
